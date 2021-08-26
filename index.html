@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="css/cssdk.css">
+    <link rel="stylesheet" href="css/css1.css">
+    <link rel="stylesheet" href="css/css2.css">
+    
+    <script src="js/jstc.js"></script>
+    <title>Bài Của Đạt</title>
+</head>
+<body>
+    <div id="tongquat">
+        <div id="tc">
+            <a href="index.html"><img class="logo" src="img/logo_choxanh.png"></a>
+                <div class="search">
+                    <input type="text" name="" placeholder="search..." >
+                    <a href="#" class="icon-tk">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+    
+                <div >
+                    <a class="giohang" href="giohang.html"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+    
+                <div class="user">
+                    <i onclick="document.getElementById('id01').style.display='block'" class="fas fa-user"></i>
+                </div>
+    
+                <div class="sdt">
+                    <h5>Hotline 24/7</h5>
+                    <h4>0985.473.082</h4>
+                </div>
+                
+        </div>
+        <div id="menu1">
+            <ul class="a1">
+                <li><a href="#"><i class="fas fa-bars"></i></a>
+                    <ul class="b1">
+                        <li><a href="DA2.1.html">Trang Chủ</a></li>
+                        <li><a onclick="document.getElementById('id01').style.display='block'" >Tài Khoản</a></li>
+                        <li><a href="">Giỏ Hàng</a></li>
+                        <li><a href="sanpham.html">Sản Phẩm</a></li>
+                        <li><a href="#gshnay">Giá Sốc</a></li>
+                        <li><a href="">Tin Tức</a></li>
+                        <li><a href="tuvanbh.html">Tư Vấn</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    
+        <div id="menu2">
+            <ul class="a2">
+                <li><a href="DA2.1.html">Trang Chủ</a></li>
+                <li><a href="sanpham.html">Sản Phẩm</a>
+                    <ul class="b2">
+                        <li><a href="#hqtuoi">Hoa quả tươi</a></li>
+                        <li><a href="#dokho">Đồ khô-sấy</a></li>
+                        <li><a href="#gaon">Gạo</a></li>
+                        <li><a href="#douong">Đồ uống</a></li>
+                    </ul>
+                </li>
+                <li><a href="#gshnay">Giá Sốc Hôm Nay</a></li>
+                <li><a href="">Tin Tức</a></li>
+                <li><a href="gthieu.html">Giới thiệu</a></li>
+                <li><a href="tuvanbh.html">Tư Vấn Bán Hàng</a></li>
+            </ul>
+        </div>
+        
+        <div class="anen">
+            <img src="img/anenhq.jpg" alt="Lỗi" class="slide-img">
+            <img src="img/covid1.jpg" alt="Lỗi" class="slide-img">
+            <img src="img/anhb.jpg" alt="Lỗi" class="slide-img">
+            <img src="img/covid2.gif" alt="Lỗi" class="slide-img">
+        </div>
+        <script src="js/anen.js"></script>
+
+        <div>
+            <img class="tuvan" src="img/dktuvan.jpg">
+            <img class="ctvien" src="img/dkbanhang.jpg">
+        </div>
+
+        <div id="id01" class="modal">
+            <form class="modal-content animate" action="/DA2.2.html" >
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              </div>
+              <div class="container">
+                <label for="uname"><b>Tài Khoản</b></label>
+                <input type="text" placeholder="Nhập Tài Khoản" name="uname" required>
+          
+                <label for="psw"><b>Mật Khẩu</b></label>
+                <input type="password" placeholder="Nhập Mật Khẩu" name="psw" required>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Lưu mật khẩu
+  
+                </label><br>
+                
+                <button class="dangnhap" type="submit" >Đăng Nhập</button>
+                  
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw"><a class="thea" type="button"  onclick="document.getElementById('id03').style.display='block'">Quên Mật Khẩu </a></span> 
+                
+              </div>
+              <div class="container2">
+                <p > BẠN CHƯA CÓ TÀI KHOẢN ?</p>
+                <button class="dangky"  type="button"  onclick="document.getElementById('id02').style.display='block'" >Đăng Ký</button>
+                <div class="iconmxh2">
+                  <span class="fb"><i class="fab fa-facebook" ></i></span>
+                  <span class="gog"><i class="fab fa-google"></i></span>
+                  
+              </div>   
+              </div>
+             
+              
+            </form>
+        </div>
+
+        <div id="id02" class="modal">
+            <form class="modal-content animate" action="/DA2.1.html">
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+            
+              </div>
+              <div class="container3">
+                <h2>ĐĂNG KÝ</h2><br>
+                <label for="uname"><b>Địa chỉ Email</b></label><br>
+                <input type="text" placeholder="Nhập email" name="uname" >
+                <P>Một mật khẩu sẽ được gửi đến địa chỉ email của bạn.</P>
+                  
+                <button onclick="myFunction()"> <a class="thea1">Đăng Ký</a></button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember">
+                  <a class="thea" href="#">Điều khoản sử dụng</a>
+                </label>
+              </div>
+            </form>
+        </div>
+          
+          
+        <div id="id03" class="modal">
+            <form class="modal-content animate" action="/DA2.1.html" >
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+            
+              </div>
+              <div class="container3">
+                <h2>QUÊN MÂT KHẨU</h2><br>
+                <label for="uname"><b>Địa chỉ Email</b></label><br>
+                <input type="text" placeholder="Nhập email" name="uname" >
+                <P>Mật khẩu mới sẽ được gửi đến địa chỉ email của bạn.</P>
+                  
+                <button class="thea1" onclick="myFunction2()" href="testhtml.html">Nhận Mật Khẩu</button>
+              </div>
+            </form>
+        </div>
+    
+        <div id="giasoc">
+            <section>
+                <div class="sp">
+                    <span id="gshnay">GIÁ SỐC HÔM NAY</span>
+                </div>
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-3 col-s-6 box" >
+                            <div class="box-content" href="chitiet/cam.html"> 
+                                <a href="chitiet/cam.html"><img src="img/Cam-nhap-khau-01.jpg"></a>
+                                <!-- <p>Cam vàng Navel Úc đáp ứng được 116% nhu cầu vitamin C, 13% chất xơ, 10% folate, 8% thiamin, 7% kali, 6% vitamin A, 5% Canxi… </p>  -->
+                                <div class="box-detail" >
+                                    <div class="detail1">CAM NHẬP KHẨU CAO CẤP</div>
+                                    <div>
+                                        <span><del><i class="gg">70k/1kg</i></del></span>
+                                    </div>
+                                    <div>
+                                        <span>50k/1kg</span>
+                                    </div> 
+                                    <button onclick="addToCart({id:'01',image:'img/Cam-nhap-khau-01.jpg', price:50000, name:'Cam'})">Thêm vào giỏ hàng</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-s-6 box">
+                            <div class="box-content">
+                                <a href="chitiet/cherry.html"><img src="img/cherry-nhập-khẩu-cao-cấp-1.jpg" ></a>
+                                <div class="box-detail">
+                                    <div class="detail1">CHERRY NHẬP KHẨU CAO CẤP</div>
+                                    <div>
+                                        <span><del><i class="gg">500k/1kg</i></del></span>
+                                    </div>
+                                    <div>
+                                        <span>450k/1kg</span>
+                                    </div> 
+                                    <button>Thêm vào giỏ hàng</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-s-6 box">
+                            <div class="box-content">
+                                <a href="chitiet/nho.html"><img src="img/nho-nhap-khau-004-1.jpg"> </a>
+                                <div class="box-detail">
+                                    <div class="detail1">NHO NHẬP KHẨU CAO CẤP</div>
+                                    <div>
+                                        <span><del><i class="gg">250k/1kg</i></del></span>
+                                    </div>
+                                    <div>
+                                        <span>200k/1kg</span>
+                                    </div> 
+                                    <button>Thêm vào giỏ hàng</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-s-6 box">
+                            <div class="box-content">
+                                <a href="chitiet/tao.html"><img src="img/tao-nhap-khau-01.jpg"> </a>
+                                <div class="box-detail">
+                                    <div class="detail1">TÁO NHẬP KHẨU CAO CẤP</div>
+                                    <div>
+                                        <span><del><i class="gg">400k/1kg</i></del></span>
+                                    </div>
+                                    <div>
+                                        <span>300k/1kg</span>
+                                    </div> 
+                                    <button>Thêm vào giỏ hàng</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <br><br>
+                <div class="sp">
+                    <span>SẢN PHẨM BÁN CHẠY</span>
+                </div>
+                <div class="row">
+                    
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href=""><img src="img/xoai-thai-150.jpg"> </a>
+                            <div class="box-detail">
+                                <div class="detail1">XOÀI THÁI</div>
+                                <div>
+                                    <span>30k/1kg</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href=""><img src="img/oin.jfif"> </a>
+                            <div class="box-detail">
+                                <div class="detail1">ỔI NỮ HOÀNG</div>
+                                <div>
+                                    <span>70k/1kg</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href=""><img src="img/dua-luoi.jpg"> </a>
+                            <div class="box-detail">
+                                <div class="detail1">DƯA LƯỚI</div>
+                                <div>
+                                    <span>80k/quả</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href="chitiet/kiwi.html"><img src="img/KIWI-nhap-khau-cao-cap-06.jpg"> </a>
+                            <div class="box-detail">
+                                <div class="detail1">KIWI NHẬP KHẨU</div>
+                                <div>
+                                    <span>500k/1kg</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href=""><img src="img/buoi.jfif">  </a>
+                            <div class="box-detail">
+                                <div class="detail1">BƯỞI DA XANH</div>
+                                <div>
+                                    <span>70k/1 quả</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <br>
+                <br>
+    
+    
+                <div class="sp">
+                    <span id="hqtuoi">HOA QUẢ TƯƠI</span>
+                    <span class="xt"><a href="#">xem thêm >></a></span>
+                </div>
+                <div class="row">
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href=""><img src="img/xoai-thai-150.jpg"></a>
+                            <div class="box-detail">
+                                <div class="detail1">XOÀI THÁI</div>
+                                <div>
+                                    <span>50k/1kg</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href=""><img src="img/oin.jfif"> </a>
+                            <div class="box-detail">
+                                <div class="detail1">ỔI NỮ HOÀNG</div>
+                                <div>
+                                    <span>70k/1kg</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href=""><img src="img/magcut.jpeg"> </a>
+                            <div class="box-detail">
+                                <div class="detail1">MĂNG CỤT</div>
+                                <div>
+                                    <span>60k/1kg</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href=""><img src="img/mit.jfif"> </a>
+                            <div class="box-detail">
+                                <div class="detail1">MÍT THÁI</div>
+                                <div>
+                                    <span>100k/quả</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href=""><img src="img/duahaukh.png"></a>
+                            <div class="box-detail">
+                                <div class="detail1">DƯA HẤU L1</div>
+                                <div>
+                                    <span>30k/quả</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="sp">
+                    <span id="dokho">ĐỒ KHÔ-SẤY</span>
+                    <span class="xt"><a href="#">xem thêm >></a></span>
+                </div>
+                <div class="row">
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href="chitiet/xoaisay.html"><img src="img/Xoai-say-deo-LV-03-200g.jpg"> </a>
+                            <div class="box-detail">
+                                <div class="detail1">XOÀI THÁI SẤY DẺO 75g</div>
+                                <div>
+                                    <span>50k/túi</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href="chitiet/vobuoisay.html"><img src="img/Buoi-say-deo-LV-200g-03.jpg"> </a>
+                            <div class="box-detail">
+                                <div class="detail1">VỎ BƯỞI SẤY DẺO 75g</div>
+                                <div>
+                                    <span>50k/túi</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href="chitiet/camsay.html"><img src="img/cam-say-deo-Lv-03-200g.jpg"> </a>
+                            <div class="box-detail">
+                                <div class="detail1">CAM SÀNH SẤY DẺO 75g</div>
+                                <div>
+                                    <span>50k/túi</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href="chitiet/nhadamsay.html"><img src="img/Nha-dam-say-deo-LV-200g-04.jpg"></a>
+                            <div class="box-detail">
+                                <div class="detail1">NHA ĐAM SẤY DẺO 75g</div>
+                                <div>
+                                    <span>50k/túi</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href="chitiet/chanhdaysay.html"><img src="img/Chanh-day-75g-LV-02.jpg"> </a> 
+                            <div class="box-detail">
+                                <div class="detail1">CHANH DÂY SẤY DẺO 75g</div>
+                                <div>
+                                    <span>50k/túi</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+    
+    
+                <div class="sp">
+                    <span id="gaon">GẠO NGON</span>
+                    <span class="xt"><a href="#">xem thêm >></a></span>
+                </div>
+                <div class="row">
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href="chitiet/gaotam.html"><img src="img/gtamot.jpg">  </a>  
+                            <div class="box-detail">
+                                <div class="detail1">GẠO TẤM ÔNG THỌ</div>
+                                <div>
+                                    <span>20k/1kg</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href="chitiet/gaost24.html"><img src="img/gst24ot.jpg">  </a>   
+                            <div class="box-detail">
+                                <div class="detail1">GẠO ST24 ÉN XUÂN</div>
+                                <div>
+                                    <span>30k/1kg</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href="chitiet/gaost25.html"><img src="img/gst25ot.jpg"> </a>
+                            <div class="box-detail">
+                                <div class="detail1">GẠO ST25 ÔNG THỌ</div>
+                                <div>
+                                    <span>35k/1kg</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href="chitiet/gaonep.html"><img src="img/gnepbot.jpg"></a> 
+                            <div class="box-detail">
+                                <div class="detail1">GẠO NẾP BẠCH ÔNG THỌ</div>
+                                <div>
+                                    <span>30k/1kg</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href="chitiet/gaojapon.html"><img src="img/gjaponot.jpg"></a> 
+                            <div class="box-detail">
+                                <div class="detail1">GẠO JAPONICA ÔNG THỌ</div>
+                                <div>
+                                    <span>25k/1kg</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+    
+                <div class="sp">
+                    <span id="douong">NƯỚC NGỌT</span>
+                    <span class="xt"><a href="#">xem thêm >></a></span>
+                </div>
+                <div class="row">
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href=""><img src="img/ncMonster.jpg"></a>  
+                            <div class="box-detail">
+                                <div class="detail1">TĂNG LỰC Monster</div>
+                                <div>
+                                    <span>700k/Thùng</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href=""><img src="img/ncC2.jpg"> </a> 
+                            <div class="box-detail">
+                                <div class="detail1">TRÀ XANH C2 </div>
+                                <div>
+                                    <span>260k/Thùng</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href=""><img src="img/ncCOCACF.jpg"></a> 
+                            <div class="box-detail">
+                                <div class="detail1">COCA VỊ CÀ PHÊ</div>
+                                <div>
+                                    <span>230k/Thùng</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href=""><img src="img/ncPESchanh.jpg"></a> 
+                            <div class="box-detail">
+                                <div class="detail1">PESSI VỊ CHANH</div>
+                                <div>
+                                    <span>210k/Thùng</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6 box">
+                        <div class="box-content">
+                            <a href=""><img src="img/ncPooka.jpg"></a>
+                            <div class="box-detail">
+                                <div class="detail1">CHÀ LÀI POOKA</div>
+                                <div>
+                                    <span>365k/Thùng</span>
+                                </div> 
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div> 
+            </section>
+        </div>
+        <br>
+        <br>
+        <br>
+    
+    
+        <div id="ct">
+            <div class="panel1">
+                <div class="row1">
+                    <div class="coll-3 col-c-6 box">
+                        <div class="box-content1"> 
+                            <img src="img/logo_choxanh.png"> 
+                            <div class="box-detail13">
+                                <div class="detail11">CÔNG TY TNHH XUẤT NHẬP KHẨU THƯƠNG MẠI VÀ ĐẦU TƯ SH</div>
+                                <div class="iconmxh">
+                                    <span class="fb"><i class="fab fa-facebook" ></i></span>
+                                    <span class="inta"><i class="fab fa-instagram"></i></span>
+                                    <span class="twit"><i class="fab fa-twitter-square"></i></span>
+                                    <span class="yt"><i class="fab fa-youtube"></i></span>
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ttlh">
+                        <div class="coll-3 col-c-6 box">
+                            <div class="box-content1">
+                                <div class="box-detail12">
+                                    <div class="detail11">THÔNG TIN LIÊN HỆ</div>
+                                    <div>
+                                        <span><i class="fas fa-map-marker-alt"></i></span>
+                                        <span class="dc">Tòa Biệt Phủ, Số 2106, Trung Hòa, Dubai, Hưng Yên</span>
+                                    </div>
+                                    <div>
+                                        <span><i class="far fa-envelope"></i></span>
+                                        <span class="dc">dangtuandat2106@gmail.com</span>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="coll-3 col-c-6 box">
+                        <div class="box-content1">
+                            <div class="box-detail1">
+                                <div class="detail11">HỖ TRỢ KHÁCH HÀNG</div>
+                                <div class="hotrokh">
+                                    <a href="">Thông tin tuyển dụng</a><br>
+                                    <a href="">Chính sách khách hàng</a><br>
+                                    <a href="">Chính sách bảo mật</a><br>
+                                    <a href="">Hợp tác nhượng quyền</a><br>
+                                    <a href="">Điều khoản sử dụng</a><br>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coll-3 col-c-6 box">
+                        <div class="box-content1">
+                            
+                            <div class="box-detail1">
+                                <div class="detail11">DỊCH VỤ NỔI BẬT</div>
+                                <div class="hotrokh">
+                                    <a href="">Thông tin tuyển dụng</a><br>
+                                    <a href="">Chính sách khách hàng</a><br>
+                                    <a href="">Chính sách bảo mật</a><br>
+                                    <a href="">Hợp tác nhượng quyền</a><br>
+                                    <a href="">Điều khoản sử dụng</a><br>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <hr>
+            <div class="ccung">
+                <a class="ccung1"><i class="fas fa-dragon"></i></i></a>
+                <a class="ccung2">Chợ Xanh Online</a>
+            </div>
+            <br>
+    
+        </div>
+    </div>
+</body>
+</html>

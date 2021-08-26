@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+
+
+
+.iconmxh {
+    font-size: 30px;
+}
+.fb {
+    color: blue;
+}
+.inta{
+    color:rgb(228, 86, 157);
+}
+.twit{
+    color: blue;
+}
+.yt{
+    color: red;
+}
+
+
+
+.ccung{
+    text-align: center;
+    margin-top: 0.5em;
+}
+.ccung1 {
+    color: rgb(0, 255, 13);
+}
+.ccung2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+
+
+/* Cuối trang */
+
+
+.box {
+    padding: 10px; 
+}
+.box .box-content1 > img {
+    width: 50%;
+    margin-left: 25%;    
+}
+.box-detail1 {
+    text-align: center;
+    margin-top: 8%;
+}
+.box-detail13 {
+    text-align: center;
+}
+.box-detail12 {
+    text-align: center;
+    margin-top: 10%;
+}
+.detail11 {
+    font-size: 16px;
+    font-family: Arial;
+}
+
+.hotrokh > a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: Arial;
+}
+.hotrokh > a:hover{
+    color: green;
+}
+.dc{
+    font-family: Arial;
+}
+
+table { 
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+    position: 0px;
+    margin: 0px;
+  }
+
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* For mobile phones: */
+[class*="coll-"] {
+    width: 100%;
+    float: left;
+  }
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-c-1 {width: 8.33%; height: 250px; }
+    .col-c-2 {width: 16.66%; height: 250px; }
+    .col-c-3 {width: 25%;height: 250px; }
+    .col-c-4 {width: 33.33%;height: 250px; }
+    .col-c-5 {width: 41.66%;height: 250px; }
+    .col-c-6 {width: 50%;height: 250px; }
+    .col-c-7 {width: 58.33%;height: 250px; }
+    .col-c-8 {width: 66.66%;height: 250px; }
+    .col-c-9 {width: 75%;height: 250px; }
+    .col-c-10 {width: 83.33%;height: 250px; }
+    .col-c-11 {width: 91.66%;height: 250px; }
+    .col-c-12 {width: 100%;height: 250px; }
+  }
+  @media only screen and (min-width: 769px) {
+    /* For desktop: */
+    .coll-1 {width: 8.33%;}
+    .coll-2 {width: 16.66%;}
+    .coll-3 {width: 25%;}
+    .coll-4 {width: 33.33%;}
+    .coll-5 {width: 41.66%;}
+    .coll-6 {width: 50%;}
+    .coll-7 {width: 58.33%;}
+    .coll-8 {width: 66.66%;}
+    .coll-9 {width: 75%;}
+    .coll-10 {width: 83.33%;}
+    .coll-11 {width: 91.66%;}
+    .coll-12 {width: 100%;}
+  }  
+
+ 
+
+@media only screen and (max-width: 812px){  
+    #menu2,.top3,.top4,.top5,.top6 {
+        display: none;
+    }
+    body{
+        background: #F1F1F1;
+    }
+    .logo{
+        margin-top: 2%;
+        width: 70px;
+        margin-left: 40%;
+        float: left;
+        margin-bottom: 1em;
+    }
+    .vn{
+        width: 50px;
+        float:right;
+        margin: 20px;
+    }
+    .top1{
+        position: fixed;
+        background: #FFFFFF;
+        width: 100%;
+    }
+    .top2 {
+        background: #FFFFFF;
+        width: 94%;
+        margin-left: 3%;
+        height: auto;
+    }
+    .ttcbuser {
+        color: #4DA3FF;
+        padding: 10px 0 10px 30px;
+    }
+    .ttuser{
+        padding: 5px 0 10px 50px;
+        font-size: 13px;
+    }
+    .top3 > a {
+        text-decoration: none;
+    }
+    .ttuser:hover{
+        color: #4DA3FF ;
+        transform: scale(1.005);
+        transition: 0.2s;
+    }
+    .sttcbuser {
+        width: 25px;
+        float:right;
+        margin-right: 10%;
+        color: rgb(122, 111, 111);
+    }
+    .sttcbuser:hover{
+        color:rgb(0, 0, 0);
+    }
+    .anhcn{
+        border-radius: 100%;
+        width: 30%;
+        margin-left: 50px;
+    }
+
+    .ttuser1{
+        color:#b9b2b2;
+        font-size: 15px;
+        padding: 10px 0 10px 30px;
+    }
+    .ttuser2{
+        font-size: 17px;
+        padding: 10px 0 10px 30px;
+    }
+   
+   
+   
+    #menu1 {
+        width: 16%;
+        float: left;
+        position: fixed;
+        font-size: 150%;
+        margin-left: 2%;
+        margin-top: 4%;
+    }
+    .a1 > li {
+        list-style: none;
+    }
+    .a1 > li > a {
+        text-decoration: none;
+        color: rgb(67, 235, 33);
+        padding: 0px 15px 0px 15px;
+        line-height: 200%;
+        display: block;
+    }
+    .a1 > li > a:hover {
+        color: red;
+        transition: ease-in 1s;
+        -moz-transition: ease-in 1s;
+        -webkit-transition: ease-in 0.2s;
+    }
+    .b1 {
+        background: rgba(246, 248, 248, 0.575);
+        width: 100px;
+        min-height: auto;
+        display: none;
+        position: absolute;
+        font-size: 12px; 
+    }
+    .b1 > li {
+        list-style: none;   
+    }
+    .b1 > li > a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        line-height: 40px;
+        text-indent: 5px;
+        font-weight: 700;
+        
+    }
+    .b1 > li > a:hover {
+        background: rgb(114, 219, 72);
+        color: white;
+        transition:ease-in 0.5s;
+        -moz-transition: ease-in 0.5s;
+        -webkit-transition: ease-in 0.5s;
+        border-radius: 30px;
+        padding: 0px 10px 0px 20px;
+        
+    }
+    .a1 > li:hover ul.b1 {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 813px){  
+    #menu1,.top2 {
+        display: none;
+    }
+    body{
+        background: #F1F1F1;
+    }
+    .logo{
+        width: 5%;
+        float: left;
+        margin: 1%;
+        margin-left: 3%;
+    }
+    .vn{
+        width: 5%;
+        float:right;
+        margin: 1%;
+    }
+
+    .top1{
+        position: fixed;
+        background: #FFFFFF;
+        width: 100%;
+    }
+  
+    .top3{
+        background: #FFFFFF;
+        width: 20%;
+        margin-left: 5%;
+        height: 300px;
+        float: left;
+    }
+
+    .top4{
+        background: #FFFFFF;
+        width: 23%;
+        margin-left: 2%;
+        height: 300px;
+        float: left;
+    }
+    .sttcbuser {
+        width: 30px;
+        float:right;
+        margin-right: 8%;
+        margin-top: 10px;
+        color: rgb(122, 111, 111);
+    }
+    .sttcbuser:hover{
+        color:rgb(0, 0, 0);
+    }
+    .ttcbuser {
+        color: #4DA3FF;
+        padding: 10px 0 10px 30px;
+    }
+    .ttuser{
+        padding: 5px 0 10px 50px;
+        font-size: 13px;
+    }
+    .ttuser:hover{
+        color: #4DA3FF ;
+        transform: scale(1.005);
+        transition: 0.2s;
+    }
+    .anhcn{
+        border-radius: 100%;
+        width: 55%;
+        margin-left: 50px;
+        margin-top: 10px;
+        float: left;
+    }
+    .top5 {
+        background: #FFFFFF;
+        width: 9%;
+        height: 300px;
+        float: left;
+    }
+    .top5 > p{
+        color:#b9b2b2;
+        font-size: 15px;
+        float: left;
+    }
+    .top6 {
+        background: #FFFFFF;
+        width: 36%;
+        height: 300px;
+        float: left;
+    }
+    .top6 > p {
+        font-size: 17px;
+    }
+    .top3 > a {
+        text-decoration: none;
+    }
+   
+
+
+
+    #menu2 {
+        height: 60px;
+        margin-bottom: 1em;
+        font-size: 20px;
+        padding: 15px;
+        float: left;
+    }
+    .a2 > li {
+        list-style: none;
+        float: left;
+        position: relative;
+    }
+    .a2 > li > a {
+        text-decoration: none;
+        color: rgb(114, 219, 72);
+        padding: 0px 15px 0px 15px;
+        line-height: 50px;
+        display: block;
+    }
+    .a2 > li > a:hover {
+        background: rgb(226, 223, 21);
+        color: white;
+        transition: ease-in 0.5s;
+        -moz-transition: ease-in 0.5s;
+        -webkit-transition: ease-in 0.5s;
+        border-radius: 30px;
+    }
+    .b2 {
+        background: rgba(255, 255, 255, 0.445);
+        width: 130px;
+        min-height: 150px;
+        display: none;
+        position: absolute;
+    }
+    .b2 > li {
+        list-style: none;
+    }
+    .b2 > li > a {
+        color: rgb(42, 117, 12);
+        text-decoration: none;
+        display: block;
+        line-height: 40px;
+        text-indent: 5px;
+    }
+    .b2 > li > a:hover {
+        background: rgb(226, 223, 21);
+        color: white;
+        transition:ease-in 0.5s;
+        -moz-transition: ease-in 0.5s;
+        -webkit-transition: ease-in 0.5s;
+        border-radius: 30px;
+        padding: 0px 5px 0px 5px;
+    }
+    .a2 > li:hover .b2 {
+        display: block;
+    }
+}

@@ -1,0 +1,365 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: cursive;
+    font-size: 100%;
+}
+
+#tc{
+    width: 100%;
+}
+#menu1 {
+    width: 16%;
+    float: left;
+    position: fixed;
+    font-size: 150%;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+.a1 > li {
+    list-style: none;
+}
+.a1 > li > a {
+    text-decoration: none;
+    color: rgb(67, 235, 33);
+    padding: 0px 15px 0px 15px;
+    line-height: 200%;
+    display: block;
+}
+.a1 > li > a:hover {
+    color: red;
+    transition: ease-in 1s;
+    -moz-transition: ease-in 1s;
+    -webkit-transition: ease-in 0.2s;
+}
+.b1 {
+    background: rgba(246, 248, 248, 0.575);
+    width: 100px;
+    min-height: auto;
+    display: none;
+    position: absolute;
+    font-size: 12px; 
+}
+.b1 > li {
+    list-style: none;   
+}
+.b1 > li > a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+    text-indent: 5px;
+    font-weight: 700;
+    
+}
+.b1 > li > a:hover {
+    background: rgb(114, 219, 72);
+    color: white;
+    transition:ease-in 0.5s;
+    -moz-transition: ease-in 0.5s;
+    -webkit-transition: ease-in 0.5s;
+    border-radius: 30px;
+    padding: 0px 10px 0px 20px;
+    
+}
+.a1 > li:hover ul.b1 {
+    display: block;
+}
+
+.slide-img {
+    float: left;
+    width: 98%;
+    height: auto;
+    margin-left: 0px;
+    margin-bottom: 3em;
+    margin-left: 1%;
+}
+.iconmxh {
+    font-size: 30px;
+}
+.fb {
+    color: blue;
+}
+.inta{
+    color:rgb(228, 86, 157);
+}
+.twit{
+    color: blue;
+}
+.yt{
+    color: red;
+}
+.gog{
+    color: red;
+}
+
+
+#ct{
+    width: 100%;
+    background: rgb(236, 236, 236);
+}
+.ccung{
+    text-align: center;
+    margin-top: 0.5em;
+}
+.ccung1 {
+    color: rgb(0, 255, 13);
+}
+.ccung2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.gg {
+    font-size: 13px;
+}
+
+/* test ẩn hiện trên ảnh */
+
+/* .textblur {
+    color: transparent;
+    text-shadow: 0 0 20px rgba(0,0,0,0);
+    text-align: center;
+    height: 120px;
+    line-height: 60px;
+    font-size: 40px;
+    -webkit-transition: text-shadow 0.5s; 
+    -moz-transition: text-shadow 0.5s;
+    }
+     
+.textblur:hover {
+    text-shadow: 0 0 0 rgba(0,0,0,1);
+    -webkit-transition: text-shadow 0.5s; 
+    -moz-transition: text-shadow 0.5s;
+    } */
+
+
+
+@media only screen and (max-width: 812px){
+    #menu2,.search,.user,.sdt{
+         display: none;
+    }
+    .logo{
+        margin-top: 2%;
+        width: 20%;
+        margin-left: 40%;
+        float: left;
+        margin-bottom: 1em;
+    }
+    .tuvan {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+        margin-bottom: 1em;
+    }
+    .ctvien {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+        margin-bottom: 3em;
+    }
+    
+    .logoct{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    .chucd{
+        font-size: 15px;
+        font-family: Arial;
+        font-weight: 700;
+        margin-left: 8%;
+    }.chucd2{
+        font-size: 15px;
+        font-family: Arial;
+        font-weight: 700;
+        margin-left: 14%;
+    }
+    .giohang{
+        font-size: 150%;
+        float:right;
+        margin-top: 6%;
+        margin-right: 10%;
+        color: rgb(67, 235, 33);
+    }
+    .giohang :hover{
+        color: red;
+        transition: ease-in 1s;
+        -moz-transition: ease-in 1s;
+        -webkit-transition: ease-in 0.2s;
+    }
+    .sp{
+        background-color:rgb(0, 255, 13);
+        width: 90%;
+        height: 30px;
+        padding: 5px;
+        margin-left: 3%;
+        font-size: 13px;
+        font:caption;
+        color: whitesmoke;
+        float: left;
+    }
+    .xt > a{
+        float: right;
+        text-decoration: none;
+        font-size: 10px;
+        padding: 4px;
+        color: darkblue;
+    }
+}
+@media only screen and (min-width: 813px){
+    #menu1{
+        display: none;
+    }
+    .logo{
+        margin-top: 1%;
+        margin-left: 5%;
+        width: 10%;  
+        float: left;
+    }
+    .tuvan {
+        float: left;
+        width: 48%;
+        height: auto;
+        margin-left: 1%;
+    }
+    .ctvien {
+        float: left;
+        width: 48%;
+        height: auto;
+        margin-left: 2%;
+        margin-bottom: 1em;
+    }
+    .search > input {
+        height: 40px;
+        width: 45%;
+        float: left;
+        margin-top: 3.5%;
+        margin-left: 6%;
+        border: solid rgb(53, 240, 28);
+        border-radius: 30px ;
+        outline-width: 0px;
+        border-width: 1px  ;
+        font-size: 18px;
+    }
+    .icon-tk > i {
+        color: rgb(67, 235, 33);
+        margin-top: 4.4%;
+        margin-left: -3%;
+        font-size: 20px;
+    }
+
+    .giohang{
+        float:right;
+        font-size: 40px;
+        margin-right: 6%;
+        margin-top: -2%;
+        color: rgb(0, 255, 13);
+    }
+    .giohang :hover{
+        color: red;
+    }
+
+    .user{
+        float:right;
+        font-size: 30px;
+        margin-right: 2%;
+        margin-top: -1.5%;
+        color: rgb(0, 255, 13);
+    }
+    .user :hover{
+        color: red;
+    }
+
+    .sdt{
+        font-family: Arial;
+        float: right;
+        margin-right: 6%;
+        margin-top: -3%;
+
+    }
+
+
+    #menu2 {
+        margin-top: 4%;
+        width: 100%;
+        height: 50px;
+        padding: auto;
+        margin-bottom: 1em;
+        font-size: 20px;
+        
+    }
+    .a2 > li {
+        list-style: none;
+        float: left;
+        position: relative;
+    }
+    .a2 > li > a {
+        text-decoration: none;
+        color: rgb(114, 219, 72);
+        padding: 0px 15px 0px 15px;
+        line-height: 50px;
+        display: block;
+    }
+    .a2 > li > a:hover {
+        background: rgb(226, 223, 21);
+        color: white;
+        transition: ease-in 0.5s;
+        -moz-transition: ease-in 0.5s;
+        -webkit-transition: ease-in 0.5s;
+        border-radius: 30px;
+    }
+    .b2 {
+        background: rgba(255, 255, 255, 0.445);
+        width: 130px;
+        min-height: 150px;
+        display: none;
+        position: absolute;
+    }
+    .b2 > li {
+        list-style: none;
+    }
+    .b2 > li > a {
+        color: rgb(42, 117, 12);
+        text-decoration: none;
+        display: block;
+        line-height: 40px;
+        text-indent: 5px;
+    }
+    .b2 > li > a:hover {
+        background: rgb(226, 223, 21);
+        color: white;
+        transition:ease-in 0.5s;
+        -moz-transition: ease-in 0.5s;
+        -webkit-transition: ease-in 0.5s;
+        border-radius: 30px;
+        padding: 0px 5px 0px 5px;
+    }
+    .a2 > li:hover .b2 {
+        display: block;
+    }
+    .sp{
+        background-color:rgb(0, 255, 13);
+        width: 90%;
+        height: 50px;
+        padding: 10px;
+        margin-left: 3%;
+        font:caption;
+        color: whitesmoke;
+        float: left;
+    }
+    .sp > span {
+        font-size: 25px;
+    }
+    .xt > a{
+        float: right;
+        text-decoration: none;
+        font-size: 15px;
+        padding: 6px;
+        color: darkblue;
+    }
+   
+}

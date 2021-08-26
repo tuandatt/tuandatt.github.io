@@ -1,0 +1,175 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.chu3 > a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 812px){
+    
+    .anen1{
+        width: 100%;
+        height: 100%;
+        opacity: 0.6;
+    }
+    .chu{
+        font-size: 21px;
+        width: 100%;
+        top: 5px;
+        position: absolute;
+    }
+    .fr{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -5%;
+    }
+    form > h1 {
+        position: relative;
+        margin: 10% 0 10%;
+        color: red;
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+    form > button {
+        width: 40%;
+        height: 35px;
+        border: 2px solid rgb(79, 79, 214);
+        cursor: pointer;
+        outline: none;
+        border-radius: 30px;
+        float: left;
+        margin-left: 5%;
+        text-decoration: none;
+    }
+    form > button:hover {
+        background: rgb(79, 79, 214);
+    }
+    .ip{
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .ip > input::placeholder {
+        color: black;
+    }
+    .ip > input {
+        width: 100%;
+        height: 40px;
+        padding-left: 10%;
+        border: none;
+        border-bottom: 1px solid rgba(27, 186, 207, 0.637);
+        outline: none;
+        font-size: 16px;
+        background: transparent;
+    }
+    
+    .ip > i {
+        position: absolute;
+        font-size: 20px;
+        line-height: 45px;
+    }
+
+}
+@media only screen and (min-width: 813px){ 
+    .anen1{
+        display: none;
+    }
+    .chu{
+        font-size: 31px;
+        width: 80%;
+        top: 5px;
+        position: absolute;
+        margin-left: 10%;
+    }
+    .chu2{ 
+        padding: 8%;
+    }
+    body{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        background: url("742508.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fr{
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.4);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    form{
+        width: 80%;
+        height: 90%;
+        border-radius: 30px;
+    }
+    form > h1 {
+        position: relative;
+        margin: 5% 0 5%;
+        color: red;
+        padding-bottom: 12px;
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+    form > h1::before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 5px;
+        background: "";
+        bottom: 0;
+    }
+    form > button {
+        width: 40%;
+        height: 35px;
+        border: 2px solid rgb(79, 79, 214);
+        cursor: pointer;
+        outline: none;
+        border-radius: 30px;
+        margin-left: 5%;
+    }
+    form > button:hover {
+        background: rgb(79, 79, 214);
+    }
+    .ip{
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .ip > input::placeholder {
+        color: black;
+    }
+    .ip > input {
+        width: 49.8%;
+        height: 40px;
+        padding-left: 30px;
+        border: none;
+        border-bottom: 1px solid rgba(27, 186, 207, 0.637);
+        outline: none;
+        font-size: 16px;
+        background: transparent;
+    }
+    
+    .ip > i {
+        position: absolute;
+        font-size: 20px;
+        line-height: 45px;
+    }
+    
+
+
+
+    
+}
